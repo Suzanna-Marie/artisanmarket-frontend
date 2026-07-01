@@ -84,7 +84,7 @@ export default function EspaceClient() {
       {/* En-tête */}
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h1 className="text-xl md:text-2xl font-bold">Bonjour, {user?.prenom} 👋</h1>
+          <h1 className="text-xl md:text-2xl font-bold">Bonjour, {user?.prenom}</h1>
           <p className="text-sm text-muted-foreground">Bienvenue dans votre espace personnel</p>
         </div>
         <div className="flex items-center gap-2 flex-wrap">
